@@ -1,4 +1,4 @@
-# Omnifood project
+# Omnifood project (unfinished)
 This project uses HTML and CSS to create a beautiful website.
 
 Live preview: [Link](https://omnifood.darshanvaishya.xyz)
