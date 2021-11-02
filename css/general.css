@@ -25,6 +25,7 @@
   Tints:
     #fdf2e9
     #fae5d3
+
     #eb984e
   Shades:
     #cf711f
@@ -71,6 +72,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  position: relative;
 }
 
 /******************************************/
@@ -222,6 +225,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 *:focus {
