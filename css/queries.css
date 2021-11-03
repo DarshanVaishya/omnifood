@@ -150,7 +150,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 
     /* 1. Hide element visually */
     opacity: 0;
@@ -183,6 +183,11 @@
   .main-nav-link:link,
   .main-nav-link:link {
     font-size: 3rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
   }
 }
 
@@ -299,6 +304,6 @@
 
   .pricing-plan--complete::after {
     right: -13%;
-    top: 8%;
+    top: 6%;
   }
 }
