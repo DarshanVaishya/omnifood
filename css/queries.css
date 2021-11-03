@@ -296,4 +296,9 @@
   .cta-text-box {
     padding: 3.2rem;
   }
+
+  .pricing-plan--complete::after {
+    right: -13%;
+    top: 8%;
+  }
 }
