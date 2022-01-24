@@ -1,14 +1,3 @@
-// console.log("Hello, world!");
-// const myName = 'Darshan Vaishya';
-// const h1 = document.querySelector(".heading-primary");
-// console.log(h1)
-
-// h1.addEventListener('click', function() {
-//   h1.textContent = myName
-//   h1.style.backgroundColor = "red"
-//   h1.style.padding = "10rem"
-// })
-
 ///////////////////////////////////////////////////////////
 // Adding year dynamically
 const year = document.querySelector(".year");
@@ -36,6 +25,7 @@ allLinks.forEach((link) => {
 				top: 0,
 				behavior: "smooth",
 			});
+			return;
 		}
 
 		// scroll for other links
@@ -57,18 +47,11 @@ const sectionHeroEl = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
 	function (entries) {
 		const ent = entries[0];
-		console.log(ent);
 
-		if (ent.isIntersecting === false) {
-			document.body.classList.add("sticky");
-		}
-
-		if (ent.isIntersecting === true) {
-			document.body.classList.remove("sticky");
-		}
+		if (!ent.isIntersecting) document.body.classList.add("sticky");
+		if (ent.isIntersecting) document.body.classList.remove("sticky");
 	},
 	{
-		// In the viewport
 		root: null,
 		threshold: 0,
 		rootMargin: "-80px",
