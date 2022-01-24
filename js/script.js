@@ -25,6 +25,7 @@ allLinks.forEach((link) => {
 				top: 0,
 				behavior: "smooth",
 			});
+			return;
 		}
 
 		// scroll for other links
