@@ -57,7 +57,18 @@ In terms of CSS, this project really taught me a lot! I realized the power of fl
 In terms of HTML, I learnt why one should use semantic tags instead of ```div``` everywhere. Got a basic understanding of SEO and google's lighthouse tool.
 
 I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and use DNS to link my custom domain to the deployed website. Along with this, got basics of Open Meta tags and web manifest to add logos to desktop apps in mobile.
+## Screenshots
 
+### Hero section
+![Hero section](./img/screenshots/hero.png)
+### Meals section
+![Meals section](./img/screenshots/meals.png)
+### Testimonial section
+![Testimonial section](./img/screenshots/testimonial.png)
+### Pricing section
+![Pricing section](./img/screenshots/pricing.png)
+### Footer
+![Footer](./img/screenshots/footer.png)
 ## Directory structure
 ```
 .
@@ -128,15 +139,6 @@ I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and
 9 directories, 54 files
 ```
 
-## Screenshots
+## Collaboration
 
-### Hero section
-![Hero section](./img/screenshots/hero.png)
-### Meals section
-![Meals section](./img/screenshots/meals.png)
-### Testimonial section
-![Testimonial section](./img/screenshots/testimonial.png)
-### Pricing section
-![Pricing section](./img/screenshots/pricing.png)
-### Footer
-![Footer](./img/screenshots/footer.png)
+If you have found a bug, suggesting an improvement or want to collaborate then please raise an [issue](https://github.com/DarshanVaishya/omnifood/issues) or create an [pull request](https://github.com/DarshanVaishya/omnifood/pulls).
