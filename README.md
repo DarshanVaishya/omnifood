@@ -8,6 +8,7 @@ Live preview: [Link](https://omnifood.darshanvaishya.xyz)
 ## Technologies used
 + HTML
 + CSS
++ JavaScript (only for responsiveness)
 
 ## Challenges faced
 This was one of the first projects for me where I had the design and had to create the website from it. I found it easier to work with design rather than making decisions on the fly. I learnt to how to make a website responsive for the first time with this project. It was a interesting challenge, but I managed to make it work! Another challenge was that I hadn't learnt JavaScript yet, but I needed it for the mobile navigation bar. It turned out to be easier than expected!
@@ -55,4 +56,87 @@ In terms of CSS, this project really taught me a lot! I realized the power of fl
 
 In terms of HTML, I learnt why one should use semantic tags instead of ```div``` everywhere. Got a basic understanding of SEO and google's lighthouse tool.
 
-I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and use DNS to link my custom domain to the deployed website.
+I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and use DNS to link my custom domain to the deployed website. Along with this, got basics of Open Meta tags and web manifest to add logos to desktop apps in mobile.
+
+## Directory structure
+```
+.
+├── content.md
+├── css
+│   ├── general.css
+│   ├── queries.css
+│   └── style.css
+├── img
+│   ├── app
+│   │   ├── app-screen-1.png
+│   │   ├── app-screen-2.png
+│   │   └── app-screen-3.png
+│   ├── apple-touch-icon.png
+│   ├── customers
+│   │   ├── ben.jpg
+│   │   ├── customer-1.jpg
+│   │   ├── customer-2.jpg
+│   │   ├── customer-3.jpg
+│   │   ├── customer-4.jpg
+│   │   ├── customer-5.jpg
+│   │   ├── customer-6.jpg
+│   │   ├── dave.jpg
+│   │   ├── hannah.jpg
+│   │   └── steve.jpg
+│   ├── eating.jpg
+│   ├── favicon-192.png
+│   ├── favicon-512.png
+│   ├── favicon.png
+│   ├── gallery
+│   │   ├── gallery-10.jpg
+│   │   ├── gallery-11.jpg
+│   │   ├── gallery-12.jpg
+│   │   ├── gallery-1.jpg
+│   │   ├── gallery-2.jpg
+│   │   ├── gallery-3.jpg
+│   │   ├── gallery-4.jpg
+│   │   ├── gallery-5.jpg
+│   │   ├── gallery-6.jpg
+│   │   ├── gallery-7.jpg
+│   │   ├── gallery-8.jpg
+│   │   └── gallery-9.jpg
+│   ├── hero-min.png
+│   ├── hero.png
+│   ├── hero.webp
+│   ├── logos
+│   │   ├── business-insider.png
+│   │   ├── forbes.png
+│   │   ├── techcrunch.png
+│   │   ├── the-new-york-times.png
+│   │   └── usa-today.png
+│   ├── meals
+│   │   ├── meal-1.jpg
+│   │   └── meal-2.jpg
+│   ├── omnifood-logo.png
+│   └── screenshots
+│       ├── footer.png
+│       ├── hero.png
+│       ├── meals.png
+│       ├── pricing.png
+│       └── testimonial.png
+├── index.html
+├── js
+│   └── script.js
+├── manifest.webmanifest
+└── README.md
+
+9 directories, 54 files
+```
+
+## Screenshots
+
+### Hero section
+![Hero section](./img/screenshots/hero.png)
+### Meals section
+![Meals section](./img/screenshots/meals.png)
+### Testimonial section
+![Testimonial section](./img/screenshots/testimonial.png)
+### Pricing section
+![Pricing section](./img/screenshots/pricing.png)
+### Footer
+![Footer](./img/screenshots/footer.png)
