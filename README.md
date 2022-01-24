@@ -1,5 +1,5 @@
 # Omnifood project
-This project uses HTML and CSS to create a beautiful website.
+Omnifood is a website for fictional food delivery app which uses AI to provide meal ideas. The website is created using HTML and CSS. It has a beautiful and easy to use UI. The website works responsively on desktop, tablet and mobile.
 
 Live preview: [Link](https://omnifood.darshanvaishya.xyz)
 
@@ -9,4 +9,42 @@ Live preview: [Link](https://omnifood.darshanvaishya.xyz)
 + HTML
 + CSS
 
-Created while following the course [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) from Udemy.
+## Challenges faced
+This was one of the first projects for me where I had the design and had to create the website from it. I found it easier to work with design rather than making decisions on the fly. I learnt to how to make a website responsive for the first time with this project. It was a interesting challenge, but I managed to make it work! Another challenge was that I hadn't learnt JavaScript yet, but I needed it for the mobile navigation bar. It turned out to be easier than expected!
+
+Here is the code which I used
+
+```js
+const btnNav = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNav.addEventListener("click", function () {
+	headerEl.classList.toggle("nav-open");
+});
+```
+
+After this, I realized that navigation bar is only visible from the top of the page. So I used Intersection observer API to make navigation bar "sticky" when the hero section is out of viewport.
+
+```js
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+	function (entries) {
+		const ent = entries[0];
+
+		if (!ent.isIntersecting) {
+			document.body.classList.add("sticky");
+		}
+
+		if (ent.isIntersecting) {
+			document.body.classList.remove("sticky");
+		}
+	},
+	{
+		root: null,
+		threshold: 0,
+		rootMargin: "-80px",
+	}
+);
+obs.observe(sectionHeroEl);
+```
