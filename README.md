@@ -48,3 +48,11 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 ```
+
+## Learning outcomes
+
+In terms of CSS, this project really taught me a lot! I realized the power of flexbox, grid and media queries to create beautiful and responsive website design. For the first time I worked on mobile and tablet design, and this was a great deal of fun to learn.
+
+In terms of HTML, I learnt why one should use semantic tags instead of ```div``` everywhere. Got a basic understanding of SEO and google's lighthouse tool.
+
+I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and use DNS to link my custom domain to the deployed website.
