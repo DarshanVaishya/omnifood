@@ -1,21 +1,25 @@
 # Omnifood project
 
+## Table of contents
+
+- [Overview](#overview)
+  - [Technologies used](#technologies-used)
+- [Challenges faced](#challenges-faced)
+- [Learning outcomes](#learning-outcomes)
+- [Screenshots](#screenshots)
+- [Directory structure](#directory-structure)
+- [Collaboration](#collaboration)
+- [Contact me](#contact-me)
+
+## Overview
+
 Omnifood is a website for fictional food delivery app which uses AI to provide meal ideas. The website is created using HTML and CSS. It has a beautiful and easy to use UI. The website works responsively on desktop, tablet and mobile.
 
 Live preview: [Link](https://omnifood.darshanvaishya.xyz)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d964c6db-6ba5-476a-b581-67ef3bb2d2d6/deploy-status)](https://app.netlify.com/sites/naughty-poincare-2c7926/deploys)
 
-## Table of contents
-
-- [Technologies used](#technologies-used)
-- [Challenges faced](#challenges-faced)
-- [Learning outcomes](#learning-outcomes)
-- [Screenshots](#screenshots)
-- [Directory structure](#directory-structure)
-- [Collaboration](#collaboration)
-
-## Technologies used
+### Technologies used
 
 - HTML
 - CSS
@@ -161,3 +165,8 @@ I also learnt how to deploy websites to [netlify](https://www.netlify.com/), and
 ## Collaboration
 
 If you have found a bug, suggesting an improvement or want to collaborate then please raise an [issue](https://github.com/DarshanVaishya/omnifood/issues) or create an [pull request](https://github.com/DarshanVaishya/omnifood/pulls).
+
+## Contact me
+
+- [Twitter](https://twitter.com/darshan_vaishya)
+- [LinkedIn](https://www.linkedin.com/in/darshan-vaishya-ba99001a9/)
