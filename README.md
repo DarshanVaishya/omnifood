@@ -18,7 +18,7 @@
 
 Omnifood is a website for fictional food delivery app which uses AI to provide meal ideas. The website is created using HTML and CSS. It has a beautiful and easy to use UI. The website works responsively on desktop, tablet and mobile.
 
-Live preview: [Link](https://omnifood.darshanvaishya.xyz)
+Live preview: [Link](https://omnifood.darshanv.dev)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d964c6db-6ba5-476a-b581-67ef3bb2d2d6/deploy-status)](https://app.netlify.com/sites/naughty-poincare-2c7926/deploys)
 
